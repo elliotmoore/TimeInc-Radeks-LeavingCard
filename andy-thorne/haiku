@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+
+import random
+
+five_syllable_phrases = [
+    'kill dash 9 TimeInc',
+    'rm dash rf slash star'
+    'Anarchy ensues.',
+    'Is Pipe still online?',
+    'Rants channel lights up.',
+    'Giant tumbleweed.',
+]
+
+seven_syllable_phrases = [
+    'Sentinel wants to update',
+    'Pull request commits not squashed',
+    'Four oh four: Radek not found',
+    'GitHub needs update again',
+    'PreProd is down - please help me!',
+    '"PHP is the future!"',
+    'Asked opinions on WordPress',
+    'Pull request on puppet4',
+]
+
+print 'A haiku for Radek'
+print '================='
+print ''
+
+print 'Radek\'s final day'
+print seven_syllable_phrases[random.randint(0, len(seven_syllable_phrases) - 1)]
+print five_syllable_phrases[random.randint(0, len(five_syllable_phrases) - 1)]
