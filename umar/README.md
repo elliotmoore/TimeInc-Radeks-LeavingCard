@@ -1,3 +1,6 @@
+# BYE RADEK
+We'll miss you Radek. It's been a pleasure, I've learnt a lot from you - best of luck at Hashicorp!
+
 ## Installation
 ```bash
 go get -u github.com/kyokomi/emoji
