@@ -15,14 +15,17 @@ Ducking bullets from Corp InfoSec and IT, Radek also helped out the US/Seattle t
 ### Quirks and Radekisms 
 Oh yeah! Radek hates it when you have a DevOps team or a DevOps person or use buzzwords in the wrong place. So we are synergizing by DevOpsing his leaving card on GitHub
 
-He loves his emojis and his memes always seeimg to pick the right one in slack in respose to news or your message :troll:  
+He loves his emojis and his memes always seeing to pick the right one in slack in response to news or your message :troll:  
 
+And this repo will have a few of the things we have noticed he likes and dislikes! ;-) 
+
+Just need to force push this message
 
 ### Your Team
 From ending up being the sole developer on Pipe to joining the central Ops team, [Who is radek?!] he suddenly had people to bounce ideas off, and being in ops put him in more contact with the other devs. 
 As his AWS expertise grew and his tooling became more known, he started to mentor other people in the department and became well loved and respected and a team player and an encouraging person.
 
-Talking up on Puppet, Terraform, Go and Git best practices.
+Talking up on Brew/Cask, Python, Puppet, Terraform, Go and Git best practices.
 
 At Time Inc, Radek has grown to be a stronger, collaborative and fun to be with team player who even on his last day helped us all out! 
 
