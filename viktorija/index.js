@@ -3,17 +3,43 @@
 
 var questions = [
     {
-        "How awesome Radek at his job?": [
-            "Awesome",
-            "Supper Awesome",
-            "He is traitor"
+        "What language did Raadek write before go?": [
+            "Python",
+            "PHP",
+            "Ruby",
+            "Java"
         ]
     },
     {
-        "The message I want to pass to Radek": [
-            "I will miss you",
-            "My codes does not work without you",
-            "Go to hell"
+        "Raadek did some monzo development, he needed an iphone, did he?": [
+            "Steal one",
+            "Already have one",
+            "Buy one just for weekend and return it",
+            "Borrow one from a pal"
+        ]
+    },
+    {
+        "How many times a year does Raadek wear a t-shirt to the office?": [
+            "Less then 5",
+            "Around 30",
+            "Around 100",
+            "Around 300"
+        ]
+    },
+    {
+        "The project Raadek done in his spare time at school?": [
+            "Social network",
+            "A software package that checks whether a number is equal to 13",
+            "Book selling tool for students",
+            "A JavaScript library that makes images on a web page load very slowly"
+        ]
+    },
+    {
+        "The message you want to pass to Raadek": [
+            "We will miss you",
+            "My project will fail without you",
+            "You traitor",
+            "Give me a hug"
         ]
     }
 ];
@@ -247,14 +273,14 @@ function handleAnswerRequest(intent, session, callback) {
         // If the user responded with an answer but there is no game in progress, ask the user
         // if they want to start a new game. Set a flag to track that we've prompted the user.
         sessionAttributes.userPromptedToContinue = true;
-        speechOutput = "There is no game in progress. Do you want to start a new game? ";
+        speechOutput = "Do you want to start a new game? ";
         callback(sessionAttributes,
             buildSpeechletResponse(CARD_TITLE, speechOutput, speechOutput, false));
     } else if (!answerSlotValid && !userGaveUp) {
         // If the user provided answer isn't a number > 0 and < ANSWER_COUNT,
         // return an error message to the user. Remember to guide the user into providing correct values.
         var reprompt = session.attributes.speechOutput;
-        var speechOutput = "Your answer must be a number between 1 and " + ANSWER_COUNT + ". " + reprompt;
+        var speechOutput = "Do you understand English? Your answer must be a number between 1 and " + ANSWER_COUNT + ". " + reprompt;
         callback(session.attributes,
             buildSpeechletResponse(CARD_TITLE, speechOutput, reprompt, false));
     } else {
@@ -338,7 +364,7 @@ function handleGetHelpRequest(intent, session, callback) {
 
     // Do not edit the help dialogue. This has been created by the Alexa team to demonstrate best practices.
 
-    var speechOutput = "I will ask you " + GAME_LENGTH + " multiple choice questions related to Radek. Respond with the number of the answer. "
+    var speechOutput = "Hello YOU. It is a very sad day today. I will ask you " + GAME_LENGTH + " multiple choice questions related to Raadek. Respond with the number of the answer. "
         + "For example, say one, two, three, or four. To start a new game at any time, say, start game. "
         + "To repeat the last question, say, repeat. "
         + "Would you like to keep playing?",
@@ -352,7 +378,7 @@ function handleGetHelpRequest(intent, session, callback) {
 function handleFinishSessionRequest(intent, session, callback) {
     // End the session with a "Good bye!" if the user wants to quit the game
     callback(session.attributes,
-        buildSpeechletResponseWithoutCard("Good bye!", "", true));
+        buildSpeechletResponseWithoutCard("Good bye! I hope you will start doing some job", "", true));
 }
 
 function isAnswerSlotValid(intent) {
