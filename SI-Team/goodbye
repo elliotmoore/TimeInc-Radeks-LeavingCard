@@ -1,0 +1,3 @@
+#!/usr/bin/perl
+use MIME::Base64;
+die(decode_base64( "Um9zZXMgYXJlIHJlZCwNClZpb2xldHMgYXJlIGJsdWUsDQpJZiB5b3UgZGlkbid0IHdyaXRlIFJULA0KU0kgd291bGRuJ3Qga25vdyB3aGF0IHRvIGRvIQ0KDQpHb29kIEx1Y2sgYXQgSGFzaGlDb3JwIQ0KDQo="));
