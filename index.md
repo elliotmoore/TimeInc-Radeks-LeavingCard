@@ -1,14 +1,34 @@
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
+### GoodBye Mr Simko, Mr Goat..
+Farewell (@radeksimko) you will be missed.
+From all alone in Python Pipe to globally known Terraform Twister you have done us proud.
+Sad to see you go, but happy that you go to a place like Hashicorp to work on a project you have put much effort into.
+OpenSource is close to your heart and we wish you all the best in the future.
 
-### Designer Templates
-We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
 
-### Creating pages manually
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+### Background
+Joining in 2013 he was hired to bring order to `PIPE`, the Python importer, processor and exporter, responsible for running Internationl Property classifieds feeds for Country Life.
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+After stablizing that platform, in which he put in many puppet PR's to create a test environment, we noticed that he had a avid interest and skills in Infrastructure, so we were happy when he jumped ship from the dev to the ops team and worked on platform engineering for us. 
 
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Ducking bullets from Corp InfoSec and IT, Radek also helped out the US/Seattle teams with Release Tooling, creating what we boringly call (because we could not find a suitable name) `rt` - enabled SI.com to 'DevOps' themselves to managing thier own platform and docker deploys.
+
+### Quirks and Radekisms 
+Oh yeah! Radek hates it when you have a DevOps team or a DevOps person or use buzzwords in the wrong place. So we are synergizing by DevOpsing his leaving card on GitHub
+
+He loves his emojis and his memes always seeimg to pick the right one in slack in respose to news or your message :troll:  
+
+
+### Your Team
+From ending up being the sole developer on Pipe to joining the central Ops team, [Who is radek?!] he suddenly had people to bounce ideas off, and being in ops put him in more contact with the other devs. 
+As his AWS expertise grew and his tooling became more known, he started to mentor other people in the department and became well loved and respected and a team player and an encouraging person.
+
+Talking up on Puppet, Terraform, Go and Git best practices.
+
+At Time Inc, Radek has grown to be a stronger, collaborative and fun to be with team player who even on his last day helped us all out! 
+
+Good Luck mate ;-D 
+
+### Pull Request to Job Offer
+The story of your progression! 
+* PR'd into my team's repos => come work for us
+* PR'd into Terraform => come work for Hashicorp
