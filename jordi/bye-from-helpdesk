@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+for _ in range(10):
+	print 'I will DM you.'
+
+print "\n#pugdom won't be the same without you. Bye :("
