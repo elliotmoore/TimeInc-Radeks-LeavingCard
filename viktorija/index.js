@@ -169,7 +169,7 @@ var CARD_TITLE = "Trivia"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
-        speechOutput = "I will ask you " + GAME_LENGTH.toString()
+        speechOutput = "This quiz made for people who knows Raadek. If you dont know him how about go and do some work. If you do know him I will ask you " + GAME_LENGTH.toString()
             + " questions, try to get as many right as you can. Just say the number of the answer. Let's begin. ",
         shouldEndSession = false,
 
@@ -294,18 +294,18 @@ function handleAnswerRequest(intent, session, callback) {
 
         if (answerSlotValid && parseInt(intent.slots.Answer.value) == correctAnswerIndex) {
             currentScore++;
-            speechOutputAnalysis = "correct. ";
+            speechOutputAnalysis = "wrong. ";
         } else {
             if (!userGaveUp) {
                 speechOutputAnalysis = "wrong. "
             }
-            speechOutputAnalysis += "The correct answer is " + correctAnswerIndex + ": " + correctAnswerText + ". ";
+            //speechOutputAnalysis += "The correct answer is " + correctAnswerIndex + ": " + correctAnswerText + ". ";
         }
         // if currentQuestionIndex is 4, we've reached 5 questions (zero-indexed) and can exit the game session
         if (currentQuestionIndex == GAME_LENGTH - 1) {
-            speechOutput = userGaveUp ? "" : "That answer is ";
-            speechOutput += speechOutputAnalysis + "You got " + currentScore.toString() + " out of "
-                + GAME_LENGTH.toString() + " questions correct. Thank you for playing!";
+            speechOutput = userGaveUp ? "" : "Ha ha all of it was a lie. I dont know correct answers myself. Thank you for waisting your time says no one ever!";
+            // speechOutput += speechOutputAnalysis + "You got " + currentScore.toString() + " out of "
+            //     + GAME_LENGTH.toString() + " questions correct. Thank you for waisting your time says none ever!";
             callback(session.attributes,
                 buildSpeechletResponse(CARD_TITLE, speechOutput, "", true));
         } else {
