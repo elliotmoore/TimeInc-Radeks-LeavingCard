@@ -1,6 +1,10 @@
 # Goodbye @radeksimko
 
+## Heartfelt message
+
 It's been great working with you and good luck for your new role!
+
+I'm wanting to start to use Terraform a lot soon so I'll be still using lots of your hard work :)
 
 ## Present
 
