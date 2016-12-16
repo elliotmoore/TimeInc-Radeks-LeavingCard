@@ -1,4 +1,5 @@
-# TimeInc-Radeks-LeavingCard
+## Radek's GitHub based Leaving Card
+
 A different way to say goodbye to a much respected developer
 
 Create issues, write code, author your own markdown message
