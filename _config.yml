@@ -1,0 +1,8 @@
+title: Timeinc-radeks-leavingcard
+description: A different way to say goodbye to a much respected developer
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
