@@ -1,0 +1,15 @@
+{
+  "name": "the-radek",
+  "version": "1.0.0",
+  "description": "An app based off a guy that will be missed",
+  "author": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "sleep": "^5.0.0"
+  }
+}
