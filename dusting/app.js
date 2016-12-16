@@ -26,7 +26,7 @@ var sleep = require('sleep');
     }else{
       var text = 'Good riddence!';
       console.log('Here is a script loop for your enjoyment');
-      sleep.sleep(2);
+      sleep.sleep(1);
       console.log(message(text));
     }
   });

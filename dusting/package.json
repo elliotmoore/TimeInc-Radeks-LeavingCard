@@ -2,10 +2,11 @@
   "name": "the-radek",
   "version": "1.0.0",
   "description": "An app based off a guy that will be missed",
-  "author": "",
+  "author": "Dustin Graves",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "license": "ISC",
   "dependencies": {
