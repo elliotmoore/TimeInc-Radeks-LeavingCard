@@ -1,3 +1,13 @@
+# Job Decision Maker
+
+##Getting started
+
+`npm install`
+
+`npm start`
+
+This app will help you decide whether you made a good decision!
+
 # Good bye Radek
 
 Thanks for all the help along the way. Good luck in your new role.
